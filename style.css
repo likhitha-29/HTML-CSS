@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+h1{
+    text-align: center;
+    color: rgb(6, 6, 105);
+    text-decoration:underline;
+}
+button{
+    background-color: rgb(6, 6, 105);
+    color: aliceblue;
+    width: 100px;
+    height: 30px;
+    border-radius: 15%;
+}
+.classs{
+        text-align: center;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        max-width: 500px;
+        background-color: #f9f9f9;
+}
+input{
+    margin: 5px;
+    display:flex;
+    width: 320px;
+    height: 20px;;
+}
+label{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
