@@ -1,0 +1,54 @@
+html,body {
+    height:100%;
+    width: 100%;
+    margin: 0;
+    padding:0;
+    background-color: aqua;
+}
+.parent {
+    height:30%;
+    width: 35%;
+    background-color:azure;
+    border:1px solid black;
+    position:relative;
+    top:200px;
+    left: 300px;
+    /* only use this when you want to change the position of 
+    any html element to its original position */
+}
+/* absolute: to manipulate the position of child inside the parent and parent position should be relative*/
+.child {
+    height: 30%;
+    width:30%;
+    background-color: violet;
+    border: 1px solid blue;
+    position:absolute;
+    top:40px;
+    left:80px;
+}
+.chatbot {
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
+    margin:40px;
+    background-color: red;
+    position:fixed;
+    right:0;
+    bottom:10px;
+    opacity:0.8;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.stick {
+    height: 10%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-weight:bold;
+    background-color: rgb(182, 201, 195);
+    position:sticky;
+    top:0;
+    right:0;
+}
